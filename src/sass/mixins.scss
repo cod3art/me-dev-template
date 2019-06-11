@@ -1,0 +1,23 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass mixins.
+// -----------------------------------------------------------------------------
+
+//elements get appended with "-" and the $name
+@mixin s($name) {
+  @at-root #{&}-#{$name} {
+    @content;
+  }
+}
+
+//elements get appended with "__" and the $name
+@mixin e($name) {
+  @at-root #{&}__#{$name} {
+    @content;
+  }
+}
+//modifiers get appended with "--" and the $name
+@mixin m($name) {
+  @at-root #{&}--#{$name} {
+    @content;
+  }
+}

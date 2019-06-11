@@ -1,0 +1,36 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+// Font 字体
+$font-stack: "-apple-system", "Helvetica Neue", "Roboto", "Segoe UI", sans-serif, Helvetica, "PingFang SC",
+  "Hiragino Sans GB", "Microsoft YaHei", Arial;
+// Color 色彩
+// 主色 使用较为安全的蓝色作为主色调，其中 Light Primary 常用于 hover，Dark Primary 常用于 active
+$color-primary: #0ab289;
+$timer-bg: #ee272a;
+// 模块背景渐变
+
+// 辅助色是具有代表性的颜色，常用于信息提示，比如成功、警告和失败。
+$color-info: #2db7f5;
+$color-success: #19be6b;
+$color-warning: #ff9900;
+$color-error: #ed4014;
+$color-price: #fb401b;
+
+//中性色常用于文本、背景、边框、阴影等，可以体现出页面的层次结构。
+$color-title: #17233d;
+$color-content: #515a6d;
+$color-subcolor: #808695;
+$color-disabled: #c5c8ce;
+$color-border: #dcdee2;
+$color-divider: #e8eaec;
+
+// 字体颜色
+$font-primary: #2b2b2b;
+$font-light-primary: #949494;
+
+// 常用边框阴影
+$box-shadow-tabbar: 0 -11px 32px rgba(0, 0, 0, 0.08);
+$box-shadow-boxes: 0 -2px 4px rgba(0, 0, 0, 0.2);
+$border: 0.5px solid #eeeeee;
